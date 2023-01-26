@@ -5,6 +5,62 @@ const HomePage = () => {
 
     return (
         <div className="container p-3">
+            <div className="container-fluid">
+
+                <div className="row pb-3">
+                    <div className="col-12">
+                        <div className="btn-group w-100" >
+                            <button
+                                className="btn btn-warning"
+                                type="button"
+                                style={{ border: '1px solid gray' }}
+                            // onClick={() => Navigate('/register')}
+                            >
+                                <p className="mx-3 my-4 fw-bold">
+                                    Ajukan Cuti
+
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-6">
+                        <div className="btn-group w-100">
+                            <button
+                                className="btn btn-warning"
+                                type="button"
+                                style={{ border: '1px solid gray' }}
+                            // onClick={() => Navigate('/register')}
+                            >
+                                <p className="mx-auto fw-bold">
+                                    Ajukan Izin Datang Terlambat
+
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="col-6">
+                        <div className="btn-group w-100">
+                            <button
+                                className="btn btn-warning"
+                                type="button"
+                                style={{ border: '1px solid gray' }}
+                            // onClick={() => Navigate('/register')}
+                            >
+                                <p className="mx-auto fw-bold">
+                                    Ajukan Perbaikkan Waktu Kehadiran
+
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
             <div className="row p-3 ">
                 <div className="col-12">
                     <div className="card border-primary row shadow shadow-light bg-">
@@ -47,7 +103,7 @@ const HomePage = () => {
                                         </div>
                                     </div>
                                 </div> */}
-                                <h5>
+                                <h5 className="fst-italic">
                                     *Belum ada pengajuan cuti
                                 </h5>
 

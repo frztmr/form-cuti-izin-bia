@@ -3,21 +3,20 @@ import { Show, Hide } from "@chakra-ui/react";
 
 const Navbar = (props) => {
     return (
-        <div className="navbar navbar-expand-lg navbar-light ">
-            <div className="container-fluid bg-primary m-auto w-100">
+        <div className="navbar navbar-expand-xl navbar-light bg-primary">
+            <div className="container-fluid  m-auto w-100">
                 <span className="navbar-brand btn ">
-
                     <span className="text-white fw-light ">
                         Formulir
                     </span>
 
-                    <span className="text-white lead ms-2 fw-bold">
-                        Cuti Izin
+                    <span className="text-white lead ms-1 fw-bold  ">
+                        Cuti Izin 
                     </span>
                 </span>
 
-                <ul className="navbar-nav me-auto   ">
-                    <li>
+                <ul className="navbar-nav me-auto m-3   ">
+                    {/* <li>
                         <span
                             className="nav-link active btn btn-light m-2 "
                         // onClick={() => navigate('/request')}
@@ -26,7 +25,7 @@ const Navbar = (props) => {
                                 Ajukan
                             </p>
                         </span>
-                    </li>
+                    </li> */}
                     {/* <li>
                         <span
                             className="nav-link active btn btn-light m-2  "
