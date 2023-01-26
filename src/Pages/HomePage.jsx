@@ -9,7 +9,7 @@ const HomePage = () => {
 
                 <div className="row pb-3">
                     <div className="col-12">
-                        <div className="btn-group w-100" >
+                        <div className="btn-group w-100 shadow" >
                             <button
                                 className="btn btn-warning"
                                 type="button"
@@ -27,7 +27,7 @@ const HomePage = () => {
 
                 <div className="row">
                     <div className="col-6">
-                        <div className="btn-group w-100">
+                        <div className="btn-group w-100 shadow">
                             <button
                                 className="btn btn-warning"
                                 type="button"
@@ -45,7 +45,7 @@ const HomePage = () => {
                     <div className="col-6">
                         <div className="btn-group w-100">
                             <button
-                                className="btn btn-warning"
+                                className="btn btn-warning shadow"
                                 type="button"
                                 style={{ border: '1px solid gray' }}
                             // onClick={() => Navigate('/register')}
@@ -102,7 +102,7 @@ const HomePage = () => {
                                         </div>
                                     </div>
                                 </div> */}
-                                <h5 className="fst-italic">
+                                <h5 className="fst-italic text-muted">
                                     *Belum ada pengajuan cuti
                                 </h5>
 
