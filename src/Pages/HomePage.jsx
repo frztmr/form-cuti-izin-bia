@@ -122,7 +122,7 @@ const HomePage = () => {
                                 <div className="col-12 col-sm-6 py-3">
                                     <div className="card border-primary w-100 shadow-sm ">
                                         <div className="card-header border-primary">
-                                            <h5 className="text-bold">
+                                            <h5 className="fw-bold">
                                                 Jumlah Cuti yang Akan Diambil
                                             </h5>
                                         </div>
@@ -130,7 +130,7 @@ const HomePage = () => {
                                             <h1 className="card-title">0</h1>
                                         </div>
                                         <div class="card-footer border-primary ">
-                                            <h3>
+                                            <h3 className="fw-bold">
                                                 Hari
                                             </h3>
                                         </div>
@@ -139,7 +139,7 @@ const HomePage = () => {
                                 <div className="col-12 col-sm-6 py-3">
                                     <div className="card border-primary w-100 shadow-sm">
                                         <div className="card-header border-primary">
-                                            <h5 className="text-bold">
+                                            <h5 className="fw-bold">
                                                 Sisa per Januari 2023
                                             </h5>
                                         </div>
@@ -147,7 +147,7 @@ const HomePage = () => {
                                             <h1 className="card-title">12</h1>
                                         </div>
                                         <div class="card-footer border-primary">
-                                            <h3>
+                                            <h3 className="fw-bold">
                                                 Hari
                                             </h3>
                                         </div>
@@ -169,7 +169,7 @@ const HomePage = () => {
                                 <div className="col-12 col-sm-3 py-3">
                                     <div className="card border-primary w-100 shadow-sm">
                                         <div className="card-header border-primary">
-                                            <h5 className="text-bold">
+                                            <h5 className="fw-bold">
                                                 Cuti Periode 2022
                                             </h5>
                                         </div>
@@ -177,7 +177,7 @@ const HomePage = () => {
                                             <h1 className="card-title">0</h1>
                                         </div>
                                         <div class="card-footer border-primary">
-                                            <h3>
+                                            <h3 className="fw-bold">
                                                 Hari
                                             </h3>
                                         </div>
@@ -186,7 +186,7 @@ const HomePage = () => {
                                 <div className="col-12 col-sm-3 py-3">
                                     <div className="card border-primary w-100 shadow-sm">
                                         <div className="card-header border-primary">
-                                            <h5 className="text-bold">
+                                            <h5 className="fw-bold">
                                                 Cuti Periode 2023
                                             </h5>
                                         </div>
@@ -194,7 +194,7 @@ const HomePage = () => {
                                             <h1 className="card-title">12</h1>
                                         </div>
                                         <div class="card-footer border-primary ">
-                                            <h3>
+                                            <h3 className="fw-bold">
                                                 Hari
                                             </h3>
                                         </div>
@@ -203,7 +203,7 @@ const HomePage = () => {
                                 <div className="col-12 col-sm-3 py-3">
                                     <div className="card border-primary w-100 shadow-sm">
                                         <div className="card-header border-primary">
-                                            <h5 className="text-bold">
+                                            <h5 className="fw-bold">
                                                 Total 2022-2023
                                             </h5>
                                         </div>
@@ -211,7 +211,7 @@ const HomePage = () => {
                                             <h1 className="card-title">12</h1>
                                         </div>
                                         <div class="card-footer border-primary ">
-                                            <h3>
+                                            <h3 className="fw-bold">
                                                 Hari
                                             </h3>
                                         </div>
@@ -220,7 +220,7 @@ const HomePage = () => {
                                 <div className="col-12 col-sm-3 py-3">
                                     <div className="card border-primary w-100 shadow-sm ">
                                         <div className="card-header border-primary ">
-                                            <h5 className="text-bold">
+                                            <h5 className="fw-bold">
                                                 Cuti Yang Terpakai
                                             </h5>
                                         </div>
@@ -228,7 +228,7 @@ const HomePage = () => {
                                             <h1 className="card-title">1</h1>
                                         </div>
                                         <div class="card-footer border-primary">
-                                            <h3>
+                                            <h3 className="fw-bold">
                                                 Hari
                                             </h3>
                                         </div>
@@ -240,7 +240,7 @@ const HomePage = () => {
                                 <div className="col-12 col-sm-12 py-2">
                                     <div className="shadow-sm card w-100 border-primary ">
                                         <div className="card-header border-primary">
-                                            <h5 className="text-bold">
+                                            <h5 className="fw-bold">
                                                 Sisa Cuti Periode 2023
                                             </h5>
                                         </div>
@@ -248,7 +248,7 @@ const HomePage = () => {
                                             <h1 className="card-title">12</h1>
                                         </div>
                                         <div class="card-footer border-primary">
-                                            <h3>
+                                            <h3 className="fw-bold">
                                                 Hari
                                             </h3>
                                         </div>
