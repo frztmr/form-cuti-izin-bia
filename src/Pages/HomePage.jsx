@@ -52,7 +52,6 @@ const HomePage = () => {
                             >
                                 <p className="mx-auto fw-bold">
                                     Ajukan Perbaikkan Waktu Kehadiran
-
                                 </p>
                             </button>
                         </div>
