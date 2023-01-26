@@ -3,6 +3,7 @@ import './App.css';
 
 //components
 import Navbar from './Component/Navbar';
+import Footer from './Component/Footer'
 
 
 
@@ -14,8 +15,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
+
       {/* <LoginPage /> */}
       <HomePage />
+
+
+
+      <Footer />
     </div>
   );
 }
