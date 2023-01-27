@@ -43,8 +43,12 @@ const AjuanCutiModal = (props) => {
                                     <li className="list-group-item">
                                         <div className="d-flex flex-row ">
                                             <div className="form-check">
-                                                <input classname="form-check-input" type="radio" name="alasan" id="CutiTahunan" />
-                                                <label className="form-check-label" for="CutiTahunan">
+                                                <input classname="form-check-input"
+                                                    type="radio"
+                                                    name="alasan"
+                                                    id="CutiTahunan" />
+                                                <label className="form-check-label"
+                                                    for="CutiTahunan">
                                                     <p className="px-2">
                                                         Cuti Tahunan
                                                     </p>
@@ -55,8 +59,12 @@ const AjuanCutiModal = (props) => {
                                     <li className="list-group-item">
                                         <div className="d-flex flex-row">
                                             <div className="form-check">
-                                                <input classname="form-check-input" type="radio" name="alasan" id="Sakit" />
-                                                <label className="form-check-label" for="Sakit">
+                                                <input classname="form-check-input"
+                                                    type="radio"
+                                                    name="alasan"
+                                                    id="Sakit" />
+                                                <label className="form-check-label"
+                                                    for="Sakit">
                                                     <p className="px-2">
                                                         Sakit
                                                     </p>
@@ -74,8 +82,12 @@ const AjuanCutiModal = (props) => {
                                         </p>
                                         <div className="d-flex  flex-row">
                                             <div className="form-check">
-                                                <input classname="form-check-input" type="radio" name="alasan" id="Melahirkan" />
-                                                <label className="form-check-label" for="Melahirkan">
+                                                <input classname="form-check-input"
+                                                    type="radio"
+                                                    name="alasan"
+                                                    id="Melahirkan" />
+                                                <label className="form-check-label"
+                                                    for="Pekerja/istri pekerja melahirkan">
                                                     <p className="px-2">
                                                         Melahirkan
                                                     </p>
@@ -84,8 +96,12 @@ const AjuanCutiModal = (props) => {
                                         </div>
                                         <div className="d-flex flex-row">
                                             <div className="form-check">
-                                                <input classname="form-check-input" type="radio" name="alasan" id="Keguguran" />
-                                                <label className="form-check-label" for="Keguguran">
+                                                <input classname="form-check-input"
+                                                    type="radio"
+                                                    name="alasan"
+                                                    id="Pekerja/Istri Pekerja Keguguran" />
+                                                <label className="form-check-label"
+                                                    for="Pekerja/Istri Pekerja Keguguran">
                                                     <p className="px-2">
                                                         Keguguran
                                                     </p>
@@ -94,8 +110,12 @@ const AjuanCutiModal = (props) => {
                                         </div>
                                         <div className="d-flex flex-row">
                                             <div className="form-check">
-                                                <input classname="form-check-input" type="radio" name="alasan" id="Keguguran" />
-                                                <label className="form-check-label" for="Haid">
+                                                <input classname="form-check-input"
+                                                    type="radio"
+                                                    name="alasan"
+                                                    id="Pekerja Haid" />
+                                                <label className="form-check-label"
+                                                    for="Haid">
                                                     <p className="px-2">
                                                         Haid
                                                     </p>
@@ -109,8 +129,12 @@ const AjuanCutiModal = (props) => {
                                         </p>
                                         <div className="d-flex flex-row">
                                             <div className="form-check">
-                                                <input classname="form-check-input" type="radio" name="alasan" id="MenikahkanSendiri" />
-                                                <label className="form-check-label" for="MenikahkanSendiri">
+                                                <input classname="form-check-input"
+                                                    type="radio"
+                                                    name="alasan"
+                                                    id="Pernikahan Sendiri" />
+                                                <label className="form-check-label"
+                                                    for="Pernikahan Sendiri">
                                                     <p className="px-2">
                                                         Sendiri
                                                     </p>
@@ -119,8 +143,12 @@ const AjuanCutiModal = (props) => {
                                         </div>
                                         <div className="d-flex flex-row">
                                             <div className="form-check">
-                                                <input classname="form-check-input" type="radio" name="alasan" id="MenikahkanAnak" />
-                                                <label className="form-check-label" for="MenikahkanAnak">
+                                                <input classname="form-check-input"
+                                                    type="radio"
+                                                    name="alasan"
+                                                    id="Pernikahan Anak" />
+                                                <label className="form-check-label"
+                                                    for="MenikahkanAnak">
                                                     <p className="px-2">
                                                         Anak
                                                     </p>
