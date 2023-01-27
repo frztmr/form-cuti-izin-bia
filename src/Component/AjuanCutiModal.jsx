@@ -18,8 +18,8 @@ const AjuanCutiModal = (props) => {
             <div class=" " tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold"
+                        <div class="modal-header bg-primary">
+                            <h5 class="modal-title fw-bold text-white"
                                 id="modalVerticallyCenteredLabel"
                             >
                                 Cuti
@@ -32,47 +32,232 @@ const AjuanCutiModal = (props) => {
                         </div>
                         <div class="modal-body">
 
-
-
-                            <div className="text-start col-12 ">
+                            <div className="text-start col-12 pb-3 d-flex justify-content-center fw-bold">
                                 {/* <p>Tanggal Meninggalkan Pekerjaan</p>
                                 <p>Jumlah Ketidakhadiran</p> */}
                                 <p>Alasan Ketidakhadiran</p>
                             </div>
 
-                            <div className="">
-                                <div className="row">
-                                    <div className="col-12">
-                                        <input
-                                            type="radio"
-                                            id="html"
-                                            name="alasan"
-                                            value="HTML" />
-                                        <label for="CutiTahunan">
-                                            <p className="p">
-                                                Cuti Tahunan
-                                            </p>
-                                        </label>
-                                        <br />
-                                    </div>
-                                    <div className="col-12">
-                                        <input
-                                            type="radio"
-                                            id="html"
-                                            name="alasan"
-                                            value="Sakit" />
-                                        <label for="Sakit">
-                                            <p className="p">
-                                                Sakit
-                                            </p>
-                                        </label>
-                                        <br />
-                                    </div>
+                            <div className="card">
+                                <ul className="list-group list-group-flush">
+                                    <li className="list-group-item">
+                                        <div className="d-flex flex-row ">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="CutiTahunan" />
+                                                <label className="form-check-label" for="CutiTahunan">
+                                                    <p className="px-2">
+                                                        Cuti Tahunan
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item">
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="Sakit" />
+                                                <label className="form-check-label" for="Sakit">
+                                                    <p className="px-2">
+                                                        Sakit
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item 
+                                    "
+                                    // d-flex justify-content-start
 
-                                </div>
+                                    >
+                                        <p className="px-2 d-flex justify-content-start">
+                                            Pekerja/Istri Pekerja
+                                        </p>
+                                        <div className="d-flex  flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="Melahirkan" />
+                                                <label className="form-check-label" for="Melahirkan">
+                                                    <p className="px-2">
+                                                        Melahirkan
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="Keguguran" />
+                                                <label className="form-check-label" for="Keguguran">
+                                                    <p className="px-2">
+                                                        Keguguran
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="Keguguran" />
+                                                <label className="form-check-label" for="Haid">
+                                                    <p className="px-2">
+                                                        Haid
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item">
+                                        <p className="px-2 d-flex justify-content-start">
+                                            Pernikahan
+                                        </p>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MenikahkanSendiri" />
+                                                <label className="form-check-label" for="MenikahkanSendiri">
+                                                    <p className="px-2">
+                                                        Sendiri
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MenikahkanAnak" />
+                                                <label className="form-check-label" for="MenikahkanAnak">
+                                                    <p className="px-2">
+                                                        Anak
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MenikahkanSaudaraKandung" />
+                                                <label className="form-check-label" for="MenikahkanSaudaraKandung">
+                                                    <p className="px-2">
+                                                        Saudara Kandung
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item">
+                                        <p className="px-2 d-flex justify-content-start">
+                                            Meninggal Dunia
+                                        </p>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaIstri" />
+                                                <label className="form-check-label" for="MeninggalDuniaIstri">
+                                                    <p className="px-2">
+                                                        Istri/Suami
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaAnak" />
+                                                <label className="form-check-label" for="MeninggalDuniaAnak">
+                                                    <p className="px-2">
+                                                        Anak
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaAnak" />
+                                                <label className="form-check-label" for="MeninggalDuniaAnak">
+                                                    <p className="px-2">
+                                                        Orang Tua
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaMertua" />
+                                                <label className="form-check-label" for="MeninggalDuniaMertua">
+                                                    <p className="px-2">
+                                                        Mertua
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaMenantu" />
+                                                <label className="form-check-label" for="MeninggalDuniaMenantu">
+                                                    <p className="px-2">
+                                                        Menantu
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaMertua" />
+                                                <label className="form-check-label" for="MeninggalDuniaMertua">
+                                                    <p className="px-2">
+                                                        Mertua
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaMertua" />
+                                                <label className="form-check-label" for="MeninggalDuniaMertua">
+                                                    <p className="px-2">
+                                                        Saudara Kandung
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaMertua" />
+                                                <label className="form-check-label" for="MeninggalDuniaMertua">
+                                                    <p className="px-2">
+                                                        Ipar
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaMertua" />
+                                                <label className="form-check-label" for="MeninggalDuniaMertua">
+                                                    <p className="px-2">
+                                                        Keluarga Serumah
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item">
+                                        <div className="d-flex flex-row">
+                                            <div className="form-check">
+                                                <input classname="form-check-input" type="radio" name="alasan" id="MeninggalDuniaMertua" />
+                                                <label className="form-check-label" for="MeninggalDuniaMertua">
+                                                    <p className="px-2">
+                                                        khitan/baptis
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item">
+                                        <p className="px-2 d-flex justify-content-start">
+                                            Alasan Lain
+                                        </p>
+                                        <div className="input-group px-3 pt-2 ">
+                                            <div className="input-group-text ">
+                                                <input className="form-check-input" type="radio" name='alasan' value="" aria-label="Radio for following text input" />
+                                            </div>
+                                            <input type="text" className="form-control pt-2" aria-label="Text input with radio" placeholder="isi alasan anda di sini" />
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-
-
 
 
                         </div>
