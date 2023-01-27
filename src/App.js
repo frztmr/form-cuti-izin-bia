@@ -4,7 +4,7 @@ import './App.css';
 //components
 import Navbar from './Component/Navbar';
 import Footer from './Component/Footer'
-
+import AjuanCutiModal from './Component/AjuanCutiModal'
 
 
 //pages
@@ -16,9 +16,9 @@ function App() {
     <div className="App">
       <Navbar />
 
-
+      <AjuanCutiModal />
       {/* <LoginPage /> */}
-      <HomePage />
+      {/* <HomePage /> */}
 
 
 
