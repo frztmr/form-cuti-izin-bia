@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './Component/Navbar';
 import Footer from './Component/Footer'
 import AjuanCutiModal from './Component/AjuanCutiModal'
+import PerbaikanKehadiranModal from './Component/PerbaikanKehadiranModal';
 
 
 //pages
@@ -16,9 +17,10 @@ function App() {
     <div className="App">
       <Navbar />
 
-      <AjuanCutiModal />
+      {/* <AjuanCutiModal /> */}
       {/* <LoginPage /> */}
       {/* <HomePage /> */}
+      <PerbaikanKehadiranModal />
 
 
 
