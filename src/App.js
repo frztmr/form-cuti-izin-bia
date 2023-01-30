@@ -23,8 +23,8 @@ function App() {
       {/* <AjuanCutiModal /> */}
       {/* <LoginPage /> */}
       {/* <HomePage /> */}
-      {/* <PerbaikanKehadiranModal /> */}
-      <IzinTerlambatModal />
+      <PerbaikanKehadiranModal />
+      {/* <IzinTerlambatModal /> */}
 
 
 
