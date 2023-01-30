@@ -19,7 +19,7 @@ const IzinTerlambatModal = () => {
         <div id="IzinTerlambatModal">
             <div className="container">
                 {/* <div className=" " tabindex="-1"> */}
-                <div className="card border-primary mt-5">
+                <div className="card border-primary mt-5 shadow">
 
                     {/* <div className="modal-content"> */}
                     <div class="modal-header bg-primary">
@@ -38,7 +38,7 @@ const IzinTerlambatModal = () => {
                         <div className="text-start col-12 pb-3 d-flex justify-content-center ">
                             {/* <p>Tanggal Meninggalkan Pekerjaan</p>
                                 <p>Jumlah Ketidakhadiran</p> */}
-                            <Select placeholder='Jenis Izin' className="fw-bold border-primary">
+                            <Select placeholder='Jenis Izin' className="fw-bold border-primary shadow">
                                 <option value='izin datang terlambat'>Datang Terlambat</option>
                                 <option value='izin pulang cepat'>Pulang Cepat</option>
                             </Select>
@@ -52,10 +52,10 @@ const IzinTerlambatModal = () => {
                                         <div className="d-flex justify-content-start">
                                             Tanggal
                                         </div>
-                                        <div className="row">
+                                        <div className="row mb-3">
                                             <div className="col-3">
                                                 <Select placeholder='tgl'
-                                                    className="border-primary">
+                                                    className="border-primary shadow-sm">
                                                     <option value='1'>1</option>
                                                     <option value='2'>2</option>
                                                     <option value='3'>3</option>
@@ -91,7 +91,7 @@ const IzinTerlambatModal = () => {
                                             </div>
                                             <div className="col-6">
                                                 <Select placeholder='bulan'
-                                                    className="border-primary"
+                                                    className="border-primary shadow-sm"
                                                 >
                                                     <option value='Januari'>Januari</option>
                                                     <option value='Februari'>Februari</option>
@@ -109,7 +109,7 @@ const IzinTerlambatModal = () => {
                                             </div>
                                             <div className="col-3">
                                                 <Select placeholder='thn'
-                                                    className="border-primary"
+                                                    className="border-primary shadow-sm"
                                                 >
                                                     <option value='2022'>2022</option>
                                                     <option value='2023'>2023</option>
@@ -125,10 +125,10 @@ const IzinTerlambatModal = () => {
                                     <div className="d-flex justify-content-start">
                                         Waktu Hadir
                                     </div>
-                                    <div className="row">
+                                    <div className="row mb-3">
                                         <div className="col-12">
                                             <Select placeholder='pilih waktu hadir'
-                                                className="border-primary">
+                                                className="border-primary shadow-sm">
                                                 <option value='09:00'>09:00</option>
                                                 <option value='09:30'>09:30</option>
                                                 <option value='10:00'>10:00</option>
@@ -152,10 +152,10 @@ const IzinTerlambatModal = () => {
                                     <div className="d-flex justify-content-start">
                                         Waktu Pulang
                                     </div>
-                                    <div className="row">
+                                    <div className="row mb-3">
                                         <div className="col-12">
                                             <Select placeholder='pilih waktu hadir'
-                                                className="border-primary">
+                                                className="border-primary shadow-sm">
                                                 <option value='09:00'>09:00</option>
                                                 <option value='09:30'>09:30</option>
                                                 <option value='10:00'>10:00</option>
@@ -194,7 +194,7 @@ const IzinTerlambatModal = () => {
                                             </label>
                                         </div>
                                     </div>
-                                    <div className="d-flex flex-row">
+                                    <div className="d-flex flex-row mb-2">
                                         <div className="form-check">
                                             <input classname="form-check-input"
                                                 type="radio"
@@ -203,7 +203,7 @@ const IzinTerlambatModal = () => {
                                             <label className="form-check-label"
                                                 for="Sakit">
                                                 <p className="px-2">
-                                                    Keperluan Operasional Unit kerja (tidak rutin)
+                                                    Keperluan Operasional Unit kerja 
                                                 </p>
                                             </label>
                                         </div>
@@ -213,7 +213,7 @@ const IzinTerlambatModal = () => {
                                     <p className="px-2 d-flex justify-content-start">
                                         Penjelasan
                                     </p>
-                                    <div className="input-group px-3 pt-2 ">
+                                    <div className="input-group px-3 pt-2 mb-3">
                                         <Textarea className="m-2 mt-1 mb-3 border-primary"
                                             placeholder='Tulis penjelasan anda di sini'
                                         />
