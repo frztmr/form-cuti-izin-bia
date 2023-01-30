@@ -1,14 +1,17 @@
+
+//REACT
 import logo from './logo.svg';
 import './App.css';
 
-//components
+
+//COMPONENTS
 import Navbar from './Component/Navbar';
 import Footer from './Component/Footer'
 import AjuanCutiModal from './Component/AjuanCutiModal'
 import PerbaikanKehadiranModal from './Component/PerbaikanKehadiranModal';
+import IzinTerlambatModal from './Component/IzinTerlambatModal';
 
-
-//pages
+//PAGES
 import LoginPage from './Pages/LoginPage';
 import HomePage from './Pages/HomePage';
 
@@ -20,7 +23,8 @@ function App() {
       {/* <AjuanCutiModal /> */}
       {/* <LoginPage /> */}
       {/* <HomePage /> */}
-      <PerbaikanKehadiranModal />
+      {/* <PerbaikanKehadiranModal /> */}
+      <IzinTerlambatModal />
 
 
 

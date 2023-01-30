@@ -18,11 +18,14 @@ const LoginPage = () => {
         }
     }
 
+    console.log(`input nik:${nik}`);
+    console.log(`input nik:${password}`);
+
     return (
         <div className="container p-5">
             <div className="card">
                 <div className="card-body shadow ">
-                    <div className="row" >
+                       <div className="row" >
                         <div className="col-6 text-start m-auto p-5">
                             <h2 className="fw-bold ">
                                 Aplikasi
@@ -33,7 +36,9 @@ const LoginPage = () => {
 
                         </div>
                         <div className="col-6 form-login">
+
                             <div className="card bg-white my-1 w-10 p-5 m-auto shadow">
+
                                 <div className="mt-3 mb-4">
                                     <label className=" fw-bold text-muted" >
                                         Email
@@ -44,6 +49,7 @@ const LoginPage = () => {
                                         onChange={(e) => setNik(e.target.value)}
                                     />
                                 </div>
+
                                 <div className="mb-4">
                                     <label className=" fw-bold text-muted " >
                                         Password
@@ -71,7 +77,7 @@ const LoginPage = () => {
                                 <button
                                     className="btn btn-primary py-3 shadow mt-3"
                                     type="button"
-                                // onClick={onLogin}
+                                // onClick={onLogin()}
                                 >
                                     Sign In
                                 </button>
