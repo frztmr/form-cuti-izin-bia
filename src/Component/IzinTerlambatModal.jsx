@@ -44,18 +44,17 @@ const IzinTerlambatModal = () => {
                             </Select>
                         </div>
 
-                        <div className="card  border-primary">
+                        <div className="card border-primary">
                             <ul className="list-group list-group-flush fw-bold border-primary">
                                 <li className="list-group-item fw-bold border-primary">
-                                    <div className="row">
-
+                                    <div className="row d-flex justify-content-center">
                                         <div className="d-flex justify-content-start">
                                             Tanggal
                                         </div>
-                                        <div className="row mb-3">
-                                            <div className="col-3">
+                                        <div className="row mb-3 pt-1">
+                                            <div className="col-3 pe-2">
                                                 <Select placeholder='tgl'
-                                                    className="border-primary shadow-sm">
+                                                    className="border-primary shadow-sm ">
                                                     <option value='1'>1</option>
                                                     <option value='2'>2</option>
                                                     <option value='3'>3</option>
@@ -89,9 +88,9 @@ const IzinTerlambatModal = () => {
                                                     <option value='31'>31</option>
                                                 </Select>
                                             </div>
-                                            <div className="col-6">
+                                            <div className="col-6 ">
                                                 <Select placeholder='bulan'
-                                                    className="border-primary shadow-sm"
+                                                    className="border-primary shadow-sm "
                                                 >
                                                     <option value='Januari'>Januari</option>
                                                     <option value='Februari'>Februari</option>
@@ -109,7 +108,7 @@ const IzinTerlambatModal = () => {
                                             </div>
                                             <div className="col-3">
                                                 <Select placeholder='thn'
-                                                    className="border-primary shadow-sm"
+                                                className="border-primary shadow-sm ps-2 "
                                                 >
                                                     <option value='2022'>2022</option>
                                                     <option value='2023'>2023</option>
@@ -177,7 +176,7 @@ const IzinTerlambatModal = () => {
                                 </li>
                                 <li className="list-group-item border-primary">
                                     <p className="px-2 d-flex justify-content-start">
-                                        Alasan Izin
+                                        Alasan izin Keperluan
                                     </p>
                                     <div className="d-flex flex-row">
 
@@ -189,7 +188,7 @@ const IzinTerlambatModal = () => {
                                             <label className="form-check-label"
                                                 for="Sakit">
                                                 <p className="px-2">
-                                                    Keperluan Pribadi
+                                                    Pribadi
                                                 </p>
                                             </label>
                                         </div>
@@ -203,7 +202,7 @@ const IzinTerlambatModal = () => {
                                             <label className="form-check-label"
                                                 for="Sakit">
                                                 <p className="px-2">
-                                                    Keperluan Operasional Unit kerja 
+                                                    Operasional Unit kerja
                                                 </p>
                                             </label>
                                         </div>
