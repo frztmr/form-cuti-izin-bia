@@ -1,5 +1,5 @@
 import React from "react";
-
+import Waiting from '../Component/WaitingListCard'
 
 const HomePage = () => {
 
@@ -27,7 +27,7 @@ const HomePage = () => {
 
                 <div className="row">
                     <div className="col-6">
-                        <div className="btn-group w-100 shadow">
+                        <div className="btn-group w-100 h-100 shadow">
                             <button
                                 className="btn btn-warning"
                                 type="button"
