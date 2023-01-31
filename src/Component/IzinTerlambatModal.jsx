@@ -36,8 +36,6 @@ const IzinTerlambatModal = () => {
                     <div class="card-body">
 
                         <div className="text-start col-12 pb-3 d-flex justify-content-center ">
-                            {/* <p>Tanggal Meninggalkan Pekerjaan</p>
-                                <p>Jumlah Ketidakhadiran</p> */}
                             <Select placeholder='Jenis Izin' className="fw-bold border-primary shadow">
                                 <option value='izin datang terlambat'>Datang Terlambat</option>
                                 <option value='izin pulang cepat'>Pulang Cepat</option>

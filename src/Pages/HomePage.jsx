@@ -1,5 +1,5 @@
 import React from "react";
-import Waiting from '../Component/WaitingListCard'
+import StatusPengajuanCard from '../Component/StatusPengajuanCard'
 
 const HomePage = () => {
 
@@ -26,7 +26,7 @@ const HomePage = () => {
                     </div>
                     {/* </div> */}
 
-                    <div className="col-lg-12 col-sm-4 pb-3">
+                    <div className="col-lg-12 col-sm-4 pb-3 ">
                         <div className="btn-group w-100 h-100 shadow">
                             <button
                                 className="btn btn-warning"
@@ -42,7 +42,7 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-12 col-sm-4 pb-3">
+                    <div className="col-lg-12 col-sm-4 pb-3 ">
                         <div className="btn-group w-100 h-100">
                             <button
                                 className="btn btn-warning shadow"
@@ -68,8 +68,8 @@ const HomePage = () => {
                         </div>
                         <div className="card-body">
                             <div className="row">
-                                <div className="">
-
+                                <div className="col-12">
+                                    <StatusPengajuanCard />
                                 </div>
                                 {/* <div className="col-12 col-sm-6 py-3">
                                     <div className="card w-100 ">
@@ -117,9 +117,11 @@ const HomePage = () => {
             <div className="row p-3 ">
                 <div className="col-12">
                     <div className="card border-primary row shadow bg-">
+
                         <div className="card-header fw-bold bg-primary text-white">
                             Rencana Pengambilan Cuti Tahunan
                         </div>
+
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-12 col-sm-6 py-3">
