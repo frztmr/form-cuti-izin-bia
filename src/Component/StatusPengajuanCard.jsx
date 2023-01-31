@@ -43,7 +43,7 @@ const StatusPengajuanCard = () => {
                                         {/* </div> */}
                                         {/* <div className="col-4 ms-5"> */}
                                         <button
-                                            className="btn btn-warning mx-1 shadow"
+                                            className="btn btn-success mx-1 shadow"
                                             type="button"
                                             style={{ border: '1px solid gray' }}
                                         // onClick={() => Navigate('/register')}
@@ -98,7 +98,7 @@ const StatusPengajuanCard = () => {
                                         {/* </div> */}
                                         {/* <div className="col-4 ms-5"> */}
                                         <button
-                                            className="btn btn-warning mx-1 shadow"
+                                            className="btn btn-success mx-1 shadow"
                                             type="button"
                                             style={{ border: '1px solid gray' }}
                                         // onClick={() => Navigate('/register')}
