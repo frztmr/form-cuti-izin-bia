@@ -24,7 +24,6 @@ const IzinTerlambatModal = () => {
                     {/* <div className="modal-content"> */}
                     <div class="modal-header bg-primary">
 
-
                         <h5 class="card-title fw-bold text-white">
                             Izin Datang Terlambat/Pulang Cepat
                         </h5>

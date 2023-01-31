@@ -64,7 +64,7 @@ const HomePage = () => {
                 <div className="col-12">
                     <div className="card border-primary row shadow shadow-light bg-">
                         <div className="card-header bg-primary fw-bold text-white">
-                            Status Pengajuan Cuti
+                            Status Pengajuan
                         </div>
                         <div className="card-body">
                             <div className="row">
