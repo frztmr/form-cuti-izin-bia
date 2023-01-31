@@ -7,9 +7,10 @@ const HomePage = () => {
         <div className="container p-3">
             <div className="container-fluid">
 
-                <div className="row pb-3">
-                    <div className="col-12">
-                        <div className="btn-group w-100 shadow" >
+                <div className="row">
+                    {/* <div className=" pb-3"> */}
+                    <div className="col-lg-12 col-sm-4 pb-3">
+                        <div className="btn-group w-100 h-100 shadow" >
                             <button
                                 className="btn btn-warning"
                                 type="button"
@@ -23,10 +24,9 @@ const HomePage = () => {
                             </button>
                         </div>
                     </div>
-                </div>
+                    {/* </div> */}
 
-                <div className="row">
-                    <div className="col-6">
+                    <div className="col-lg-12 col-sm-4 pb-3">
                         <div className="btn-group w-100 h-100 shadow">
                             <button
                                 className="btn btn-warning"
@@ -34,7 +34,7 @@ const HomePage = () => {
                                 style={{ border: '1px solid gray' }}
                             // onClick={() => Navigate('/register')}
                             >
-                                <p className="mx-auto fw-bold">
+                                <p className="mx-2 my-3 fw-bold">
                                     Ajukan Izin Datang Terlambat
 
                                 </p>
@@ -42,15 +42,15 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    <div className="col-6">
-                        <div className="btn-group w-100">
+                    <div className="col-lg-12 col-sm-4 pb-3">
+                        <div className="btn-group w-100 h-100">
                             <button
                                 className="btn btn-warning shadow"
                                 type="button"
                                 style={{ border: '1px solid gray' }}
                             // onClick={() => Navigate('/register')}
                             >
-                                <p className="mx-auto fw-bold">
+                                <p className="mx-2 my-3 fw-bold">
                                     Ajukan Perbaikkan Waktu Kehadiran
                                 </p>
                             </button>
@@ -68,6 +68,9 @@ const HomePage = () => {
                         </div>
                         <div className="card-body">
                             <div className="row">
+                                <div className="">
+
+                                </div>
                                 {/* <div className="col-12 col-sm-6 py-3">
                                     <div className="card w-100 ">
                                         <div className="card-header">
